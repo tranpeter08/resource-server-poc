@@ -1,6 +1,6 @@
 ## Scripts
 
-`npm run dev` - starts server in developement mode
+`npm run dev` - starts server in developement mode @ http://localhost:8000
 
 ## Environment Variables
 
