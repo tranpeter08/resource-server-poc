@@ -1,7 +1,7 @@
 const OktaJwtVerifier = require('@okta/jwt-verifier');
-const {
-  oktaJwtConfig: {issuer, audience},
-} = require('../config');
+
+const audience = process.env.OKTA_CLIENT_ID;
+const issuer = process.env.OKTA_ISSUER;
 
 async function oktaJwtVerifier(req, res, next) {
   try {
